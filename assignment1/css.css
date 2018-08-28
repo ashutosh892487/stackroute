@@ -1,0 +1,131 @@
+*
+{
+    box-sizing:border-box;
+    
+}
+
+nav
+{
+     display: flex;
+    background: #555;
+    justify-content: space-around;
+}
+nav a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    margin-left: 25px;
+    text-decoration-style: solid;
+
+    
+}
+nav li
+{
+    list-style-type: none;
+   
+    
+
+}
+nav 
+{
+
+    flex-flow: row;
+}
+.social
+{
+    list-style-type: none;
+    color: white;
+
+}
+.social li
+{
+    padding: 5px;
+}
+
+    nav a:hover
+{
+    background-color: lightgray;
+}
+
+@media screen and (min-width:500px){
+nav ul
+{
+    display: flex;
+
+}
+}
+.container
+{
+   display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.one
+{
+    flex-grow:1;
+    height: 500px;
+    background:url(p.jpg);
+    
+}
+.two
+{
+    flex-grow: 7;
+    height: 500px;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    animation: changebg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes changebg
+{
+    0%
+    {
+        background-image: url(c.jpg);
+    }
+    50%
+    {
+         background-image: url(v.jpg);
+}
+    100%
+    {
+         background-image: url(sl.jpg);
+}
+}
+.three
+{
+    flex-grow: 2;
+    height: 500px;
+    background:url(m.jpg);
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+@media screen and (max-width:500px){
+.container
+{
+    flex-flow: column;
+
+}
+}
+
+.hero
+{
+    font-size:30px;
+    text-align: center;
+    height: 200px;
+    background: lightgrey;
+}
+footer
+{    
+    background:grey;
+    height:200px;
+    font-size: 30px;
+    
+    text-align: center;
+}

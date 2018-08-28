@@ -1,0 +1,110 @@
+/*body{
+	width:600px;
+	min-width: 80px;
+	max-width: 600px;
+	align-items: center;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+
+}*/
+body {margin:0;background-color: #ff5733;}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.hero_image 
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/varanasi.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 0;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    height: 500px;
+    text-align:center;
+}
+input{
+	margin-bottom: 30px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.footer{
+	text-align: center;
+}
+
+/*header {
+display: flex;
+flex: wrap;
+align-items: baseline;
+justify-content: flex-start;
+background: rgb(250, 0, 100);
+}
+.box1{
+	background:red;
+	margin-top: -602px;
+	text-align:center;
+	position: relative;
+	flex-grow: 2;
+}
+
+.box2{
+	background:blue;
+}
+
+.box3{
+	background:yellow;
+}
+
+.box4{
+	background:green;
+}
+li{ display:inline;
+ }
+ a{
+ 	text-decoration:none;
+ }
+ /*<li class="box1"><a href="#">VARANASI</a></li>*/
