@@ -8,7 +8,7 @@
 	justify-content: space-around;
 
 }*/
-body {margin:0;background-color: #ff5733;}
+body {margin:0;background-color: #ff5733;min-width: 600px;}
 .navbar {
   overflow: hidden;
   background-color: #333;
