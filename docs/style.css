@@ -1,11 +1,11 @@
 body{
-	width:100%;
-	height: 100%;
-	margin: 0;
-	background-color: #ff5733;
-	display: flex;
-	flex-direction: column;
-	min-width: 80px;
+  width:100%;
+  height: 100%;
+  margin: 0;
+  background-color: #ff5733;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
 }
 .navbar {
   overflow: hidden;
@@ -17,9 +17,9 @@ body{
   z-index: 99;
 }
 .diff{
-	width: 1068px;
-	display: flex;
-	justify-content: flex-end;
+  width: 1068px;
+  display: flex;
+  justify-content: flex-end;
 
 }
 
@@ -73,23 +73,23 @@ body{
     overflow: hidden;
 }
 .row {
-	width: 100%;
-	display: flex;
+  width: 100%;
+  display: flex;
 }
 form {
-	margin-top: 30px;
+  margin-top: 30px;
     justify-content: center;
     align-self: center;
 }
 input{
-	height: 10%;
-	align-content: center;
-	display: flex;
-	overflow: hidden;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 2;
+  height: 10%;
+  align-content: center;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
 }
 .button {
     background-color: #4CAF50;
@@ -103,8 +103,8 @@ input{
     height:50px;
 }
 .footer{
-	text-align: center;
-	display: flex;
+  text-align: center;
+  display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
@@ -125,9 +125,9 @@ input{
 
 
 @media screen and (max-width: 768px) {
-	.row { flex-direction: column; }
+  .row { flex-direction: column; }
     .column { width:100%; }
 
-    .navbar { width:100%; margin:0; border:none;flex-wrap: wrap; justify-content: flex-start; }
+    .navbar { width:100%; margin:0; border:none;flex-wrap: wrap; justify-content: center; }
 
 }
