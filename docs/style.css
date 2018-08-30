@@ -121,6 +121,7 @@ input{
     position: relative;
 
 }
+}
 @media screen and (max-width: 1060px) {
 
     .row { width:67%; }
@@ -131,11 +132,7 @@ input{
 
 
 @media screen and (max-width: 768px) {
-  .row { 
-    width:100%;
-    flex-direction: column; 
-    align-items:center;
-    justify-content: space-around;}
+  .row { flex-direction: column; }
     .column { width:100%; }
 
     .navbar { width:100%; margin:0; border:none;flex-wrap: wrap; justify-content: center; }
